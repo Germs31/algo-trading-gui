@@ -1,9 +1,13 @@
 import React from 'react'
+import {MdAccountCircle, MdChangeHistory, MdDateRange, MdDelete} from "react-icons/md";
 
 const SideMenu = () => {
     return (
-        <div>
-            <h1>Sidemenu</h1>
+        <div className="side-menu">
+            <MdAccountCircle className="icon"/>
+            <MdChangeHistory className="icon"/>
+            <MdDateRange className="icon"/>
+            <MdDelete className="icon"/>
         </div>
     )
 }
