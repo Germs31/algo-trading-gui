@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check it [Link](https://germs31.github.io/algo-trading-gui/).
 
 ## Available Scripts
 
