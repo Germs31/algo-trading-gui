@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {Line} from 'react-chartjs-2';
+import {MdKeyboardArrowLeft, MdKeyboardArrowRight} from 'react-icons/md'
 
 const Main = () => {
     const [chartData, setChartData] = useState({});
@@ -32,6 +33,10 @@ const Main = () => {
                         yAxes: [{gridLines: {color: "rgba(255,255,255,0.3)"}}]
                     }
                 }} />
+            <div className="btn-group">
+                    <MdKeyboardArrowLeft className="btn"/>
+                    <MdKeyboardArrowRight className="btn"/>
+            </div>
             </div>
         </div>
     )

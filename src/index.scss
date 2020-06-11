@@ -73,7 +73,18 @@ code {
       width: 800px;
       height: 800px;
     }
+    .btn-group{
+      display: flex;
+      justify-content: center;
+      margin: 35px 0;
+      .btn{
+        cursor: pointer;
+        font-size: 3rem;
+        margin: 0 25px;
+      }
+    }
   }
+
 }
 
 
