@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/algo-trading-gui/static/css/main.acfc774c.chunk.css",
+    "main.js": "/algo-trading-gui/static/js/main.d7df9b46.chunk.js",
+    "main.js.map": "/algo-trading-gui/static/js/main.d7df9b46.chunk.js.map",
+    "runtime-main.js": "/algo-trading-gui/static/js/runtime-main.69db31b4.js",
+    "runtime-main.js.map": "/algo-trading-gui/static/js/runtime-main.69db31b4.js.map",
+    "static/js/2.894463ac.chunk.js": "/algo-trading-gui/static/js/2.894463ac.chunk.js",
+    "static/js/2.894463ac.chunk.js.map": "/algo-trading-gui/static/js/2.894463ac.chunk.js.map",
+    "index.html": "/algo-trading-gui/index.html",
+    "precache-manifest.b20eee248e428f03cef6906f5238433c.js": "/algo-trading-gui/precache-manifest.b20eee248e428f03cef6906f5238433c.js",
+    "service-worker.js": "/algo-trading-gui/service-worker.js",
+    "static/css/main.acfc774c.chunk.css.map": "/algo-trading-gui/static/css/main.acfc774c.chunk.css.map",
+    "static/js/2.894463ac.chunk.js.LICENSE.txt": "/algo-trading-gui/static/js/2.894463ac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69db31b4.js",
+    "static/js/2.894463ac.chunk.js",
+    "static/css/main.acfc774c.chunk.css",
+    "static/js/main.d7df9b46.chunk.js"
+  ]
+}
