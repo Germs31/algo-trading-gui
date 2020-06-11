@@ -6,6 +6,7 @@ $mainColor: #121212;
   box-sizing: border-box;
 }
 body {
+  user-select: none;
   background: $mainColor;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -31,8 +32,15 @@ code {
     display: flex;
     flex-direction: column;
     align-items: center;
+    .icon-user{
+      cursor: pointer;
+      font-size: 40px;
+      color:rgba(238, 238, 0, 1);
+      margin: 12px 0 0 0;
+    }
     .icon {
-      font-size: 30px;
+      cursor: pointer;
+      font-size: 40px;
       margin: 15px 0;
     }
   }
@@ -45,6 +53,8 @@ code {
         display: flex;
         align-items: center;
         h1 {
+          margin: 0 35px 0 75px;
+          color:rgba(238, 238, 0, 1);
           font-size: 2.5rem;
         }
         ul {
@@ -54,7 +64,9 @@ code {
         }
       
         li{
-          padding: 10px;
+          padding: 15px;
+          letter-spacing: 3px;
+          font-weight: 100;
           font-size: 1.5rem;
           &:hover{
             color: yellow;

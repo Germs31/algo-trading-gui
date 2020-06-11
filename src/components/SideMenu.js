@@ -4,7 +4,7 @@ import {MdAccountCircle, MdChangeHistory, MdDateRange, MdDelete} from "react-ico
 const SideMenu = () => {
     return (
         <div className="side-menu">
-            <MdAccountCircle className="icon"/>
+            <MdAccountCircle className="icon-user"/>
             <MdChangeHistory className="icon"/>
             <MdDateRange className="icon"/>
             <MdDelete className="icon"/>

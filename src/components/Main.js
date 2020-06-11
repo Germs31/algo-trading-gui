@@ -28,14 +28,16 @@ const Main = () => {
 
     const addDataset = () => {
         let newData = []
-        for(let i = 0; i <= 14; i++){
+        for(let i = 0; i <= 24; i++){
             newData.push(Math.floor(Math.random() * 80))
         }
         console.log(newData)
         setChartData({
             labels: ['Monday(1)', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
                      'Monday(2)', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
-                     'Monday(3)', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+                     'Monday(3)', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
+                     'Monday(4)', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
+                     'Monday(5)', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
             datasets: [
                 {
                     label: 'algo trade',
@@ -47,15 +49,6 @@ const Main = () => {
                 },
             ]
         })
-        chartData.datasets.push({
-            label: 'New',
-            data: newData,
-            backgroundColor: ['rgba(255,0,0,0.6)'],
-            pointBorderColor: ['rgba(255,255,255, 0.6)'],
-            borderWidth: 4,
-            lineTension: 0,
-        })
-        console.log(chartData.datasets)
     }
     const removeDataset = () => {
        chartData.datasets.pop()
@@ -71,7 +64,7 @@ const Main = () => {
                     },
                 }} />
             <div className="btn-group">
-                    <MdKeyboardArrowLeft onClick={() => removeDataset()} className="btn"/>
+                    <MdKeyboardArrowLeft onClick={() => addDataset()} className="btn"/>
                     <MdKeyboardArrowRight onClick={() => addDataset()} className="btn"/>
             </div>
             </div>
